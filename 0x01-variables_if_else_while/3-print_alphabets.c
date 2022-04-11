@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * mian - entry point
+ * main - entry point
  *
  * Description: print lower and upper alphabet on the same line
  * Return: 0
