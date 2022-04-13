@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * print_to_98 - print all the numbers between the provided number and 98,
+ * print_to_98 - print all natural numbers from input to 98,
  *               in order separated by a comma followed by a space.
- * @n: integer to start at.
+ * @n: The number to begin counting at.
  */
 void print_to_98(int n)
 {
 if (n > 98)
 {
 while (n > 98)
-printf("%d", i);
+printf("%d,", n--);
+printf("%d\n", n);
 }
 
 else
