@@ -1,23 +1,36 @@
-#include "main.h"
-
+#include "holberton.h"
+#include "stdio.h"
 /**
- * print_to_98 - print all natural numbers from input to 98,
- *               in order separated by a comma followed by a space.
- * @n: The number to begin counting at.
+ * print_to_98 - print all the numbers between the provided number and 98
+ * @n: integer to start at
+ * Return: Void.
  */
+
 void print_to_98(int n)
 {
+int i = 0;
+
 if (n > 98)
 {
-while (n > 98)
-printf("%d,", n--);
-printf("%d\n", n);
+for (i = n; i >= 98; i--)
+{
+if (i != n)
+{
+printf(", ");
 }
-
+printf("%d", i);
+}
+}
 else
 {
-while (n < 98)
-printf("%d, ", n++);
-printf("%d\n", n);
+for (i = n; i <= 98 ; i++)
+{
+if (i != n)
+{
+printf(", ");
 }
+printf("%d", i);
+}
+}
+putchar('\n');
 }
