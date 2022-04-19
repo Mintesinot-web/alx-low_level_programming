@@ -11,7 +11,7 @@ int i = 0;
 while (s[i])
 i++;
 
-  while  (i--)
+while  (i--)
 {
 _putchar(s[i]);
 }
