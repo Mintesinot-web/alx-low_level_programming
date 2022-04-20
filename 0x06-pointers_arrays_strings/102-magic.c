@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /*
@@ -9,6 +8,7 @@
  * - only one statement
  * - you are not allowed to code anything else than this line of code
  */
+
 int main(void)
 {
 int n;
