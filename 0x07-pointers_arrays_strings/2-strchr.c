@@ -16,7 +16,6 @@ if (*s == c) /*if s ==  c*/
 {
 return (s); /*return s*/
 }
-
 ++s;
 }
 return (0);/* values null*/
